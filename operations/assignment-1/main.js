@@ -50,7 +50,7 @@ console.log("ten", ten);
 
 
 //task4 
-let day = 3;
+let day = 7;
 console.log("Task4");
 console.log("day number is", day);
 if (day == 1) {
