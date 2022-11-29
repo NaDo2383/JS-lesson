@@ -79,7 +79,7 @@ if (b6 == 1) {
 }
 
 //task7
-console.log("task4");
+console.log("task7");
 let n7 = prompt("yamar negen toon utga oruulna uu!");
 
 if (n7 >= 0) {
@@ -89,3 +89,26 @@ if (n7 >= 0) {
 } else {
     console.log("ta too oruulaagui bn");
 }
+
+//task8
+console.log("task8");
+let birthOfBirth = prompt("ta tursun onoo oruulna uu");
+let age = 2022 - birthOfBirth;
+if (1 <= age && age <= 1) {
+    console.log("Infant")
+} else if (1 < age && age <= 3) {
+    console.log("Toddler")
+} else if (3 < age && age <= 5) {
+    console.log("Preschool")
+} else if (5 < age && age <= 12) {
+    console.log("Gradeschooler")
+} else if (12 < age && age <= 18) {
+    console.log("Teen")
+} else if (18 < age && age <= 21) {
+    console.log("Young adult")
+} else if (21 < age) {
+    console.log("Adult")
+} else {
+    console.log("Ta buruu ognoo oruulsan bn")
+}
+
