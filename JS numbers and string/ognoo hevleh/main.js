@@ -1,4 +1,4 @@
-/*//task1 
+//task1 
 let ognoo = prompt("ta on oo oruulna uu");
 let sar = prompt("ta sar aa oruulna uu");
 let odor = prompt("ta odor oo oruulna uu");
@@ -56,7 +56,7 @@ butenOgnoo1 = ognoo1 + "-" + sar1 + "-" + odor1;
 
 if (butenOgnoo == true) {
     console.log(butenOgnoo1);
-}*/
+}
 
 //task2 
 let utas = prompt("ta utasnii dugaar aa oruulna uu");
