@@ -1,4 +1,4 @@
-//task1 
+/*//task1 
 let ognoo = prompt("ta on oo oruulna uu");
 let sar = prompt("ta sar aa oruulna uu");
 let odor = prompt("ta odor oo oruulna uu");
@@ -56,4 +56,22 @@ butenOgnoo1 = ognoo1 + "-" + sar1 + "-" + odor1;
 
 if (butenOgnoo == true) {
     console.log(butenOgnoo1);
+}*/
+
+//task2 
+let utas = prompt("ta utasnii dugaar aa oruulna uu");
+if (utas === Number) {
+    if (utas.length == 8 && (utas.substr(0, 2) == 99 || utas.substr(0, 2) == 99 || utas.substr(0, 2) == 95 || utas.substr(0, 2) == 85)) {
+        console.log("tanii oruulsan utasnii dugaar Mobicom iin dugaar bn");
+    } else if (utas.length == 8 && (utas.substr(0, 2) == 96 || utas.substr(0, 2) == 91 || utas.substr(0, 2) == 90)) {
+        console.log("tanii oruulsan utasnii dugaar Skytel iin dugaar bn");
+    } else if (utas.length == 8 && (utas.substr(0, 2) == 98 || utas.substr(0, 2) == 97 || utas.substr(0, 2) == 90)) {
+        console.log("tanii oruulsan utasnii dugaar G-Mobile iin dugaar bn");
+    } else if (utas.length == 8 && (utas.substr(0, 2) == 88 || utas.substr(0, 2) == 86)) {
+        console.log("tanii oruulsan utasnii dugaar Unitel iin dugaar bn");
+    } else {
+        console.log("tanii oruulsan utasnii dugaar buruu bn");
+    }
+} else {
+    console.log("tanii oruulsan utasnii dugaar buruu bn");
 }
